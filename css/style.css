@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.login-btn {
+    text-decoration: none;
+    color: #2f2f41;
+} 
+
+
+
+.signup-btn {
+    text-decoration: none;
+    border-radius: .5rem;
+    border: 1px solid #01a479;
+    background-color: rgba(1,164,121,.1);
+    color: #2f2f41;
+    padding: .35rem 1rem;
+    font-size: 13px;
+    font-weight: 500;
+
+
+}
+
+.title-brand {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  margin-right: 0;
+  padding: 0;
+}
