@@ -1,9 +1,12 @@
+/* global settings */
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
 }
+
+/*   start navbar section style */
 
 .login-btn {
     text-decoration: none;
@@ -31,3 +34,59 @@
   margin-right: 0;
   padding: 0;
 }
+
+/* end navbar section style */
+
+
+/* star landing section style */
+.landing-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-box , .img-box {
+    width: 50%;
+
+}
+
+.info-box h2 {
+  color: #2f2f41;
+  font-weight: 700;
+  line-height: 1.3;
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.info-box a {
+    text-decoration: none;
+    background-color: rgba(1,164,121,.1);
+    border: 1px solid #01a479;
+    font-size: 15px;
+    border-radius: 5px;
+    color:#2f2f41;
+    padding: .7rem 1.5rem;
+    display: block;
+    margin-bottom: 20px;
+    width: fit-content;
+
+}
+
+.info-box p {
+    color:#535353;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 10px ;
+    border-left: 1px solid #01a479;
+}
+
+.img-box img {
+    width: 100%;
+}
+
+
+
+
+/* end landing section style */
