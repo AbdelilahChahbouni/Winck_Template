@@ -168,6 +168,10 @@
 
 .services .col2 {
     max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 .services .col1 .ser-box {
     display: flex;
@@ -178,40 +182,41 @@
     margin-bottom: 40px;
     padding: 20px;
     width: 60%;
-    border : 1px solid green;
 }
 .services .col2 .ser-box i {
     display: block;
     font-size: 50px;
     margin-bottom: 30px;
+    margin-left: 20px;
     
 }
 .services .col2 .ser-box h4{
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
 
 }
 
 .services .col2 .ser-box p {
     font-size: 12px;
     line-height: 1.7;
+    color:#535353;
+
 }
 
 
-.services .col2 a {
+.services .col2 > a {
   border-radius: .5rem;
-  font-weight: 600;
-  overflow: hidden;
   padding: .7rem 1.5rem;
-  position: relative;
-  z-index: 9;
   background-color: rgba(1,164,121,.1);
-  border-color: green;
-  border-width: 1px;
   color: #2f2f41;
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
-  margin: auto;
+  border: 1px solid black;
+  text-align: center;
+  border: 1px solid #01a479;
+  
 }
 
 
