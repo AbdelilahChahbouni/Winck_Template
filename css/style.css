@@ -359,6 +359,7 @@
 
 .perfect_solution .perfect_content ul  {
     list-style: none;
+    margin-bottom: 40px;
     
 }
 
@@ -445,6 +446,21 @@
 .btn-animation:hover {
     color: white;
     transition: all .5s ease-in-out 0s;;
+}
+
+.perfect_solution .perfect_content a {
+    position: relative;  
+    border-radius: .5rem;
+    padding: .7rem 1.5rem; 
+    color: #2f2f41;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid black;
+    text-align: center;
+    border: 1px solid #01a479;
+    
+    
 }
 
 
